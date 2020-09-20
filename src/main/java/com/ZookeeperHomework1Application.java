@@ -17,7 +17,9 @@ public class ZookeeperHomework1Application {
 		System.out.println("Enter number of days: ");
 		days = scan.nextInt();
 
+		ZooAnnouncer test = new ZooAnnouncer("Kron");
 		ZooKeeper elmer = new ZooKeeper("Dennis");
+		elmer.addAnnouncer(test);
 		//Marsupial
 		Kangaroo k1 = new Kangaroo("Ken");
 		Kangaroo k2 = new Kangaroo("Kevin");
@@ -41,7 +43,8 @@ public class ZookeeperHomework1Application {
 		Wolf dw1 = new Wolf("Wayne");
 		Wolf dw2 = new Wolf("Wes");
 
-		List<Animal> zoo = Arrays.asList(k1, k2, w1, w2, e1, e2, h1, h2, r1, r2, c1, c2, t1, t2, d1, d2, dw1, dw2);
+		//List<Animal> zoo = Arrays.asList(k1, k2, w1, w2, e1, e2, h1, h2, r1, r2, c1, c2, t1, t2, d1, d2, dw1, dw2);
+		List<Animal> zoo = Arrays.asList(k1);
 		//https://stackoverflow.com/questions/1994255/how-to-write-console-output-to-a-txt-file
 		//the code below is for writing the console output to a file
         //PrintStream out = new PrintStream(new FileOutputStream("dayatthezoo.out")); //writing console out to output.txt file

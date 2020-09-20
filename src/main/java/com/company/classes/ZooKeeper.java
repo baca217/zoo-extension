@@ -28,6 +28,7 @@ public class ZooKeeper extends ZooEmployee{//extension is an example of polymorp
 
     private void wakeAnimals(List<Animal> animals){ //arguments are polymorphism
         int i;
+        updateAnnouncer("wake the animals");
         for(i = 0; i < animals.size(); i++){
             System.out.println("Zookeeper "+this.getName()+" tried to wake up "+animals.get(i).getName()+" the "+animals.get(i).getType());
             animals.get(i).wakeUp();
@@ -36,6 +37,7 @@ public class ZooKeeper extends ZooEmployee{//extension is an example of polymorp
 
     private void roleCallAnimals(List<Animal> animals){ //arguments are polymorphism
         int i;
+        updateAnnouncer("roll call the animals");
         for(i = 0; i < animals.size(); i++){
             System.out.println("Zookeeper "+this.getName()+" tried to role call "+animals.get(i).getName()+" the "+animals.get(i).getType());
             animals.get(i).makeNoise();
@@ -44,6 +46,7 @@ public class ZooKeeper extends ZooEmployee{//extension is an example of polymorp
 
     private void feedAnimals(List<Animal> animals){ //arguments are polymorphism
         int i;
+        updateAnnouncer("feed the animals");
         for(i = 0; i < animals.size(); i++){
             System.out.println("Zookeeper "+this.getName()+" tried to feed "+animals.get(i).getName()+" the "+animals.get(i).getType());
             animals.get(i).eat();
@@ -52,6 +55,7 @@ public class ZooKeeper extends ZooEmployee{//extension is an example of polymorp
 
     private void exerciseAnimals(List<Animal> animals){ //arguments are polymorphism
         int i;
+        updateAnnouncer("exercise the animals");
         for(i = 0; i < animals.size(); i++){
             System.out.println("Zookeeper "+this.getName()+" tried to exercise "+animals.get(i).getName()+" the "+animals.get(i).getType());
             animals.get(i).roam();
@@ -60,6 +64,7 @@ public class ZooKeeper extends ZooEmployee{//extension is an example of polymorp
 
     private void sleepAnimals(List<Animal> animals){ //arguments are polymorphism
         int i;
+        updateAnnouncer("tell the animals to sleep");
         for(i = 0; i < animals.size(); i++){
             System.out.println("Zookeeper "+this.getName()+" tells "+animals.get(i).getName()+" the "+animals.get(i).getType() + " to sleep.");
             animals.get(i).sleep();
