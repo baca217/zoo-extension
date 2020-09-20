@@ -19,7 +19,7 @@ public class ZookeeperHomework1Application {
 
 		ZooAnnouncer test = new ZooAnnouncer("Kron");
 		ZooKeeper elmer = new ZooKeeper("Dennis");
-		elmer.addAnnouncer(test);
+		elmer.addPropertyChangeListener(test);
 		//Marsupial
 		Kangaroo k1 = new Kangaroo("Ken");
 		Kangaroo k2 = new Kangaroo("Kevin");

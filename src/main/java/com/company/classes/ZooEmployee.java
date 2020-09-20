@@ -1,14 +1,17 @@
 package com.company.classes;
 
-import java.util.ArrayList;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 import java.util.List;
 
 //EXAMPLE OF ENCAPSULATION
-abstract class ZooEmployee {
+abstract class ZooEmployee{
     //new variable, people who will watch this employee
-    private List<ZooAnnouncer> announcers = new ArrayList<>();
+    protected PropertyChangeSupport support = new PropertyChangeSupport(this);
     //name is an example of identity
-    private String name;
+    protected String name;
+    //HW2 keep track of employee task
+    protected String curTask;
 
     //function is an example of abstraction
     public ZooEmployee(String newName){this.name = newName;}
@@ -24,22 +27,11 @@ abstract class ZooEmployee {
     public String getType(){return this.getClass().getSimpleName();}
 
     //new method
-    public void addAnnouncer(ZooAnnouncer employee)
-    {
-        this.announcers.add(employee);
+    public void addPropertyChangeListener(PropertyChangeListener pcl) {
+        support.addPropertyChangeListener(pcl);
     }
     //new method
-    public void removeAnnouncer(ZooAnnouncer employee)
-    {
-        this.announcers.remove(employee);
-    }
-    //new method
-    public void updateAnnouncer(String Action)
-    {
-        int i;
-        for(i = 0; i < announcers.size(); i++)
-        {
-            announcers.get(i).announce(this, Action);
-        }
+    public void removePropertyChangeListener(PropertyChangeListener pcl) {
+        support.removePropertyChangeListener(pcl);
     }
 }

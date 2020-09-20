@@ -1,8 +1,10 @@
 package com.company.classes;
 
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 import java.util.List;
 
-public class ZooAnnouncer extends ZooEmployee{
+public class ZooAnnouncer extends ZooEmployee implements PropertyChangeListener {
     public ZooAnnouncer(String newName){super(newName);}
     public void uniform(){System.out.println(getName()+" puts on their Zoo Announcer uniform.");}
     public void doDailyWork(int day, List<Animal> animals)
@@ -10,10 +12,12 @@ public class ZooAnnouncer extends ZooEmployee{
         System.out.println("Zoo Announcer "+this.getName()+" arrived for the day");
     }
 
-    public void announce(ZooEmployee fellowEmployee, String Action)
+    @Override
+    public void propertyChange(PropertyChangeEvent evt)
     {
-        System.out.println("Hi, this is Zoo Announcer "
-                +this.getName()+". "+fellowEmployee.getName()+" the "+fellowEmployee.getType()
-                +" is about to "+Action+"!");
+           if(evt.getPropertyName().equals("task"))
+           {
+               System.out.println("Hi, this is "+this.getType()+" "+this.name+". "+evt.getNewValue());
+           }
     }
 }

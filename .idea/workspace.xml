@@ -28,24 +28,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="added output file for 7 days">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooAnnouncer.java" afterDir="false" />
+    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooAnnouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooAnnouncer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Elephant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Elephant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Feline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Feline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Hippo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Hippo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Lion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Pachyderm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Pachyderm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Rhino.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Rhino.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Tiger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600229879778</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes.">
+      <created>1600585725953</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600585725953</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,17 +276,18 @@
     <MESSAGE value="removed uncessary code in main" />
     <MESSAGE value="removed un-necessary code in main" />
     <MESSAGE value="added output file for 7 days" />
-    <option name="LAST_COMMIT_MESSAGE" value="added output file for 7 days" />
+    <MESSAGE value="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes." />
   </component>
   <component name="WindowStateProjectService">
     <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599696455638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599696455638" />
-    <state x="285" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1600127420811">
+    <state x="285" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1600636535889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600127420811" />
+    <state x="285" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600636535889" />
     <state x="350" y="358" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599696452525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,22 +296,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="383" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1599708074815" />
-    <state width="914" height="274" key="GridCell.Tab.0.bottom" timestamp="1600585400285">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1600639761279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600585400285" />
-    <state width="914" height="274" key="GridCell.Tab.0.center" timestamp="1600585400285">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1600639761279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600585400285" />
-    <state width="914" height="274" key="GridCell.Tab.0.left" timestamp="1600585400285">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1600639761279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600585400285" />
-    <state width="914" height="274" key="GridCell.Tab.0.right" timestamp="1600585400285">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1600639761279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600585400285" />
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
     <state x="17" y="173" key="Maven.ArtifactSearchDialog" timestamp="1599706465948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -335,10 +332,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600580816497" />
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600580856531">
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600585737416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600580856531" />
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600585737416" />
     <state x="298" y="300" key="chooseDestDirectoryDialog" timestamp="1599705890629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,6 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="266" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599962862952" />
+    <state x="505" y="254" width="909" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600638852955">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="505" y="254" width="909" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1600638852955" />
     <state x="187" y="123" width="585" height="801" key="find.popup" timestamp="1599668088357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -359,9 +360,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="416" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599714422338" />
+    <state x="136" y="236" key="run.anything.popup" timestamp="1600629650602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="136" y="236" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600629650602" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600226888362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600226888362" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
