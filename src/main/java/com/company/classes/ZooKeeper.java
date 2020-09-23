@@ -51,8 +51,11 @@ public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//
             int i;
             if (sendTask.equals("none")) {
                 System.out.println("Zookeeper " + name+" "+ printTask + " for day " + curDay);
-            } else {
-                System.out.println("Zookeeper " + name+" "+ printTask);
+            }
+            else {
+                String temp = "Zookeeper " + name+" "+ printTask;
+                support.firePropertyChange("task", "none", temp);
+                System.out.println(temp);
                 for (i = zooAnimals.size(); i > 0; i--) {
                     System.out.println("Zookeeper "+name+" tried to "+sendTask+" "+zooAnimals.get(i-1).getTitle());
                     zooAnimals.get(i - 1).doCommand(sendTask);

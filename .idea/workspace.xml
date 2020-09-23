@@ -29,18 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="ZooKeeper observes the ZooClock class for a change of hour. ZooAnnouncer observers the ZooKeeper for actions now">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600585725953</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ZooKeeper observes the ZooClock class for a change of hour. ZooAnnouncer observers the ZooKeeper for actions now">
+      <created>1600896157225</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600896157225</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,22 +299,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="383" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1599708074815" />
-    <state width="1014" height="288" key="GridCell.Tab.0.bottom" timestamp="1600896128228">
+    <state width="1014" height="288" key="GridCell.Tab.0.bottom" timestamp="1600896178863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
-    <state width="1014" height="288" key="GridCell.Tab.0.center" timestamp="1600896128228">
+    <state width="1014" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600896178863" />
+    <state width="1014" height="288" key="GridCell.Tab.0.center" timestamp="1600896178863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
-    <state width="1014" height="288" key="GridCell.Tab.0.left" timestamp="1600896128228">
+    <state width="1014" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600896178863" />
+    <state width="1014" height="288" key="GridCell.Tab.0.left" timestamp="1600896178863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
-    <state width="1014" height="288" key="GridCell.Tab.0.right" timestamp="1600896128228">
+    <state width="1014" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600896178863" />
+    <state width="1014" height="288" key="GridCell.Tab.0.right" timestamp="1600896178863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1014" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
+    <state width="1014" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600896178863" />
     <state x="17" y="173" key="Maven.ArtifactSearchDialog" timestamp="1599706465948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
