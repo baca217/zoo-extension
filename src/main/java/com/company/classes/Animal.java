@@ -20,6 +20,27 @@ public abstract class Animal {
         }
         this.name = newName;
     }
+    public void doCommand(String command)
+    {
+        switch(command)
+        {
+            case "wake up":
+                this.wakeUp();
+                break;
+            case"roll call":
+                this.makeNoise();
+                break;
+            case "feed":
+                this.eat();
+                break;
+            case "exercise":
+                this.roam();
+                break;
+            case "sleep":
+                this.sleep();
+                break;
+        }
+    }
     public void wakeUp() {
         System.out.println("Default Wake up");
     }
@@ -30,4 +51,5 @@ public abstract class Animal {
     public String getName(){return this.name;}
     public void setName(String newName){name = newName; }
     public String getType(){return this.getClass().getSimpleName();}
+    public String getTitle(){return name+" the "+this.getClass().getSimpleName();}
 }

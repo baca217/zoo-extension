@@ -23,18 +23,24 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:OOP-1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" afterDir="false" />
+    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="ZooKeeper observes the ZooClock class for a change of hour. ZooAnnouncer observers the ZooKeeper for actions now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooAnnouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooAnnouncer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +253,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="OOP-1" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -277,7 +283,8 @@
     <MESSAGE value="removed un-necessary code in main" />
     <MESSAGE value="added output file for 7 days" />
     <MESSAGE value="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes." />
+    <MESSAGE value="ZooKeeper observes the ZooClock class for a change of hour. ZooAnnouncer observers the ZooKeeper for actions now" />
+    <option name="LAST_COMMIT_MESSAGE" value="ZooKeeper observes the ZooClock class for a change of hour. ZooAnnouncer observers the ZooKeeper for actions now" />
   </component>
   <component name="WindowStateProjectService">
     <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599696455638">
@@ -296,22 +303,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="383" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1599708074815" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1600639761279">
+    <state width="1014" height="288" key="GridCell.Tab.0.bottom" timestamp="1600896128228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1600639761279">
+    <state width="1014" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
+    <state width="1014" height="288" key="GridCell.Tab.0.center" timestamp="1600896128228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1600639761279">
+    <state width="1014" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
+    <state width="1014" height="288" key="GridCell.Tab.0.left" timestamp="1600896128228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1600639761279">
+    <state width="1014" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
+    <state width="1014" height="288" key="GridCell.Tab.0.right" timestamp="1600896128228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600639761279" />
+    <state width="1014" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600896128228" />
     <state x="17" y="173" key="Maven.ArtifactSearchDialog" timestamp="1599706465948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -332,10 +339,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="96" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600580816497" />
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600585737416">
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600641571090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600585737416" />
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600641571090" />
     <state x="298" y="300" key="chooseDestDirectoryDialog" timestamp="1599705890629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -360,10 +367,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="416" key="git4idea.ui.GitResetDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599714422338" />
-    <state x="136" y="236" key="run.anything.popup" timestamp="1600629650602">
+    <state x="136" y="236" key="run.anything.popup" timestamp="1600822835515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="236" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600629650602" />
+    <state x="136" y="236" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600822835515" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1600226888362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

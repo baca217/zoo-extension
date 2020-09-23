@@ -1,98 +1,73 @@
 package com.company.classes;
-import javax.lang.model.element.Element;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.AbstractMap;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 //EXAMPLE OF ENCAPSULATION
-public class ZooKeeper extends ZooEmployee{//extension is an example of polymorphism
+public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//extension is an example of polymorphism
+    //time task pairs
+    private static AbstractMap<Integer, List<String>> timeToTasks;
+    //HW2 keep track of animals
+    List<Animal> zooAnimals;
     //name is an example of identity
-    public ZooKeeper(String Name){super(Name);}
-    //added enum for easier task keeping
-    public enum taskList
+    public ZooKeeper(String Name)
     {
-        wake("wake-up the animals"),
-        call("role call the animals"),
-        feed("feed the animals"),
-        exercise("exercise the animals"),
-        sleep("tell the animals to sleep");
+        super(Name);
+        timeToTasks = new HashMap<>();
+        timeToTasks.put(8, Arrays.asList("arrived at work", "none"));
+        timeToTasks.put(9, Arrays.asList("will now wake the animals", "wake up"));
+        timeToTasks.put(10, Arrays.asList("will now roll call the animals", "roll call"));
+        timeToTasks.put(12, Arrays.asList("will now feed the animals", "feed"));
+        timeToTasks.put(15, Arrays.asList("will now exercise the animals", "exercise"));
+        timeToTasks.put(17, Arrays.asList("will now tell the animals to sleep", "sleep"));
+        timeToTasks.put(20, Arrays.asList("arrived at work", "none"));
+    }
 
-        public final String task;
-
-        taskList(String task)
+    public void propertyChange(PropertyChangeEvent evt)
+    {
+        switch(evt.getPropertyName())
         {
-            this.task = task;
+            case "hour":
+                doTask((int) evt.getNewValue());
+                break;
+            case "day":
+                curDay = (int) evt.getNewValue();
+                break;
+            default:
+                System.out.println(evt.getPropertyName());
+        }
+    }
+
+    private void doTask(int time)
+    {
+        //getting task the zookeeper is doing
+        if(timeToTasks.containsKey(time)) {
+            List<String> task = timeToTasks.get(time);
+            String printTask = task.get(0);
+            String sendTask = task.get(1);
+            int i;
+            if (sendTask.equals("none")) {
+                System.out.println("Zookeeper " + name+" "+ printTask + " for day " + curDay);
+            } else {
+                System.out.println("Zookeeper " + name+" "+ printTask);
+                for (i = zooAnimals.size(); i > 0; i--) {
+                    System.out.println("Zookeeper "+name+" tried to "+sendTask+" "+zooAnimals.get(i-1).getTitle());
+                    zooAnimals.get(i - 1).doCommand(sendTask);
+                }
+            }
         }
     }
 
     //function is an example of abstraction
-    public void doDailyWork(int days, List<Animal> animals){ //argument List<Animal> shows polymorphism
-        int i;
-        for(i = 1; i < days+1; i++) {
-            System.out.println("Zookeeper " + this.getName() + " arrived for day " + i + ".");
-            uniform();//all functions below are abstraction
-            wakeAnimals(animals);
-            roleCallAnimals(animals);
-            feedAnimals(animals);
-            exerciseAnimals(animals);
-            sleepAnimals(animals);
-            System.out.println("Zookeeper " + this.getName() + " has left for day " + i + ".\n");
-        }
+    public void setZooList(List<Animal> animals){ //argument List<Animal> shows polymorphism
+        zooAnimals = animals;
     }
     @Override
     public void uniform(){
         System.out.println("Zookeeper "+this.getName()+" put on their uniform");
-    }
-
-    private void wakeAnimals(List<Animal> animals){ //arguments are polymorphism
-        int i;
-        String temp = "Zookeeper "+this.name+" is about to wake the animals";
-        support.firePropertyChange("task", null, temp);
-        for(i = 0; i < animals.size(); i++){
-            System.out.println("Zookeeper "+this.getName()+" tried to wake up "+animals.get(i).getName()+" the "+animals.get(i).getType());
-            animals.get(i).wakeUp();
-        }
-    }
-
-    private void roleCallAnimals(List<Animal> animals){ //arguments are polymorphism
-        int i;
-        String temp = "Zookeeper "+this.name+" is about to role call the animals";
-        support.firePropertyChange("task", null, temp);
-        for(i = 0; i < animals.size(); i++){
-            System.out.println("Zookeeper "+this.getName()+" tried to role call "+animals.get(i).getName()+" the "+animals.get(i).getType());
-            animals.get(i).makeNoise();
-        }
-    }
-
-    private void feedAnimals(List<Animal> animals){ //arguments are polymorphism
-        int i;
-        this.curTask = taskList.feed.toString();
-        String temp = "Zookeeper "+this.name+" is about to feed the animals";
-        support.firePropertyChange("task", null, temp);
-        for(i = 0; i < animals.size(); i++){
-            System.out.println("Zookeeper "+this.name+" tried to feed "+animals.get(i).getName()+" the "+animals.get(i).getType());
-            animals.get(i).eat();
-        }
-    }
-
-    private void exerciseAnimals(List<Animal> animals){ //arguments are polymorphism
-        int i;
-        this.curTask = taskList.exercise.toString();
-        String temp = "Zookeeper "+this.name+" is about to exercise the animals";
-        support.firePropertyChange("task", null, temp);
-        for(i = 0; i < animals.size(); i++){
-            System.out.println("Zookeeper "+this.name+" tried to exercise "+animals.get(i).getName()+" the "+animals.get(i).getType());
-            animals.get(i).roam();
-        }
-    }
-
-    private void sleepAnimals(List<Animal> animals){ //arguments are polymorphism
-        int i;
-        this.curTask = taskList.sleep.toString();
-        String temp = "Zookeeper "+this.name+" is about to tell the animals to sleep";
-        support.firePropertyChange("task", null, temp);
-        for(i = 0; i < animals.size(); i++){
-            System.out.println("Zookeeper "+this.name+" tells "+animals.get(i).getName()+" the "+animals.get(i).getType() + " to sleep.");
-            animals.get(i).sleep();
-        }
     }
 
     public void update(String property, Object oldVal, Object newVal){}

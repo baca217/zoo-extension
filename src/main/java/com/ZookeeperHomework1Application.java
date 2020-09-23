@@ -19,6 +19,9 @@ public class ZookeeperHomework1Application {
 
 		ZooAnnouncer test = new ZooAnnouncer("Kron");
 		ZooKeeper elmer = new ZooKeeper("Dennis");
+		ZooClock clock = new ZooClock();
+		clock.addPropertyChangeListener(elmer);
+		clock.setWorkDays(days);
 		elmer.addPropertyChangeListener(test);
 		//Marsupial
 		Kangaroo k1 = new Kangaroo("Ken");
@@ -51,6 +54,7 @@ public class ZookeeperHomework1Application {
 		//System.setOut(out);
 
 		//abstraction
-		elmer.doDailyWork(days, zoo);
+		elmer.setZooList(zoo);
+		clock.doWorkDays();
 	}
 }

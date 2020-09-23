@@ -12,13 +12,13 @@ abstract class ZooEmployee{
     protected String name;
     //HW2 keep track of employee task
     protected String curTask;
+    //HW2 keep track of current day
+    protected int curDay;
 
     //function is an example of abstraction
     public ZooEmployee(String newName){this.name = newName;}
 
     abstract void uniform();
-
-    abstract void doDailyWork(int day, List<Animal> animals);
 
     //function is an example of abstraction
     public String getName(){ return this.name;}
