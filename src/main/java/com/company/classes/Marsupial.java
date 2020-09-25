@@ -9,7 +9,7 @@ public class Marsupial extends Animal{//extension is an example of polymorphism
         super(newName);
     }
     @Override
-    public void roam(){}
+    protected void roam(){}
     @Override
-    public void sleep(){}
+    protected void sleep(){}
 }

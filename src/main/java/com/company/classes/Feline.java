@@ -8,7 +8,7 @@ public class Feline extends Animal {//extension is an example of polymorphism
     //name is an example of identity
     public Feline(String Name){super(Name);}
     @Override
-    public void sleep() {
+    protected void sleep() {
         Random rand = new Random();
         int probability = rand.nextInt(9);
 
@@ -26,5 +26,5 @@ public class Feline extends Animal {//extension is an example of polymorphism
     }
 
     @Override
-    public void roam(){}
+    protected void roam(){}
 }

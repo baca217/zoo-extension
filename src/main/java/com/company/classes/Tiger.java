@@ -8,22 +8,22 @@ public class Tiger extends Feline {//extension is an example of polymorphism
     }
     //all functions are examples of abstraction
     @Override
-    public void wakeUp() {
+    protected void wakeUp() {
         System.out.println(this.getName() + " the Tiger Wakes up");
     }
 
     @Override
-    public void makeNoise() {
+    protected void makeNoise() {
         System.out.println(this.getName() + " the Tiger makes a noise");
     }
 
     @Override
-    public void eat() {
+    protected void eat() {
         System.out.println(this.getName() + " the Tiger eats something tasty");
     }
 
     @Override
-    public void roam() {
+    protected void roam() {
         System.out.println(this.getName() + " the Tiger roams around the cage");
     }
 }

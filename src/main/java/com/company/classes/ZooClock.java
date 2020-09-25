@@ -34,9 +34,12 @@ public class ZooClock {
             {
                 support.firePropertyChange("day", this.days, this.days-1);
                 this.days--;
+                System.out.println("ZooClock: we are on day "+days);
+                System.out.println("ZooClock: we are on hour "+hour);
                 support.firePropertyChange("hour", 23, this.hour);
             }
             else {
+                System.out.println("ZooClock: we are on hour "+hour);
                 support.firePropertyChange("hour", this.hour-1, this.hour);
             }
             this.hour++;

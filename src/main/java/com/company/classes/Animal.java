@@ -6,7 +6,7 @@ import java.util.Scanner;
 public abstract class Animal {
     //EXAMPLE OF IDENTITY
     //name is an example of identity
-    private String name;
+    protected String name;
     //EXAMPLE OF ABSTRACTION
     public Animal(String newName)
     {
@@ -41,13 +41,13 @@ public abstract class Animal {
                 break;
         }
     }
-    public void wakeUp() {
+    protected void wakeUp() {
         System.out.println("Default Wake up");
     }
-    public void makeNoise() { System.out.println("Default Make Noise"); }
-    public void eat() { System.out.println("Default Eat"); }
-    abstract void roam();
-    abstract void sleep();
+    protected void makeNoise() { System.out.println("Default Make Noise"); }
+    protected void eat() { System.out.println("Default Eat"); }
+    protected abstract void roam();
+    protected abstract void sleep();
     public String getName(){return this.name;}
     public void setName(String newName){name = newName; }
     public String getType(){return this.getClass().getSimpleName();}

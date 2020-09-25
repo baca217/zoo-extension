@@ -8,27 +8,27 @@ public class Wolf extends Canine{//extension is an example of polymorphism
     }
     //all functions are examples of abstraction
     @Override
-    public void wakeUp() {
+    protected void wakeUp() {
         System.out.println(this.getName() + " the Wolf Wakes up");
     }
 
     @Override
-    public void makeNoise() {
+    protected void makeNoise() {
         System.out.println(this.getName() + " the Wolf makes a noise");
     }
 
     @Override
-    public void eat() {
+    protected void eat() {
         System.out.println(this.getName() + " the Wolf eats something tasty");
     }
 
     @Override
-    public void roam() {
+    protected void roam() {
         System.out.println(this.getName() + " the Wolf roams around the cage");
     }
 
     @Override
-    void sleep() {
+    protected void sleep() {
         System.out.println(this.getName() + " the Wolf sleeps in the cage");
     }
 }

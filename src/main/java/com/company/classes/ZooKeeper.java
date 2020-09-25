@@ -9,9 +9,9 @@ import java.util.List;
 //EXAMPLE OF ENCAPSULATION
 public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//extension is an example of polymorphism
     //time task pairs
-    private static AbstractMap<Integer, List<String>> timeToTasks;
+    private AbstractMap<Integer, List<String>> timeToTasks;
     //HW2 keep track of animals
-    List<Animal> zooAnimals;
+    private List<Animal> zooAnimals;
     //name is an example of identity
     public ZooKeeper(String Name)
     {
@@ -23,7 +23,7 @@ public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//
         timeToTasks.put(12, Arrays.asList("will now feed the animals", "feed"));
         timeToTasks.put(15, Arrays.asList("will now exercise the animals", "exercise"));
         timeToTasks.put(17, Arrays.asList("will now tell the animals to sleep", "sleep"));
-        timeToTasks.put(20, Arrays.asList("arrived at work", "none"));
+        timeToTasks.put(20, Arrays.asList("left work", "none"));
     }
 
     public void propertyChange(PropertyChangeEvent evt)
@@ -68,10 +68,9 @@ public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//
     public void setZooList(List<Animal> animals){ //argument List<Animal> shows polymorphism
         zooAnimals = animals;
     }
+    public  List<Animal>  getZooList() {return this.zooAnimals;}
     @Override
     public void uniform(){
         System.out.println("Zookeeper "+this.getName()+" put on their uniform");
     }
-
-    public void update(String property, Object oldVal, Object newVal){}
 }

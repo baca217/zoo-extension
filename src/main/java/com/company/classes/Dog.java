@@ -38,7 +38,7 @@ public class Dog extends Canine{//extension is an example of polymorphism
     }
 
     @Override
-    void sleep() {
+    protected  void sleep() {
         System.out.println(this.getName() + " the Wolf sleeps in the cage");
     }
 }

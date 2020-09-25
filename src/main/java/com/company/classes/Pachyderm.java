@@ -8,7 +8,7 @@ public class Pachyderm  extends Animal { //extension is an example of polymorphi
     //name is an example of identity
     public Pachyderm(String name){super(name);}
     @Override
-    public void roam(){
+    protected void roam(){
         Random rand = new Random();
         int probability = rand.nextInt(100);
 
@@ -20,5 +20,5 @@ public class Pachyderm  extends Animal { //extension is an example of polymorphi
         }
     }
     @Override
-    public void sleep(){}
+    protected void sleep(){}
 }
