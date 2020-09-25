@@ -20,11 +20,11 @@ public class ZooFoodServer extends ZooEmployee{
                 int hour = (int) evt.getNewValue();
                 switch (hour) {
                     case 8:
-                        support.firePropertyChange("cleaning", "",
+                        support.firePropertyChange("arrived", "",
                                 name +" the " +getType() + " has arrived");
                         break;
 
-                    case 9:
+                    case 15:
                         support.firePropertyChange("cleaning", "",
                                 name +" the " +getType() + " is now cleaning");
                         break;
