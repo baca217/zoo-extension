@@ -41,6 +41,11 @@ public abstract class Animal {
                 break;
         }
     }
+
+    // STRATEGY BEHAVIOR
+    final public void poopNow(){
+        System.out.println(getTitle() + " just dropped a poop");
+    }
     public void wakeUp() {
         System.out.println("Default Wake up");
     }
