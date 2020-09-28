@@ -28,22 +28,29 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="ZooAnnouncer observes ZooKeeper now based on task change">
+    <list default="true" id="d87bdd5a-6192-4ba2-a149-33f3a926519d" name="Default Changelist" comment="Added some observer classes">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Feline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Feline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Marsupial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Marsupial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Pachyderm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Pachyderm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ZookeeperHomework1Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooAnnouncer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooAnnouncer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooClock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooFoodServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooFoodServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/classes/ZooKeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ZookeeperHomework1Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Elephant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Elephant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Feline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Feline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Marsupial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Marsupial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Pachyderm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Pachyderm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Tiger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Tiger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/Wolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/Wolf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooAnnouncer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooAnnouncer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooClock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooFoodServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooFoodServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/classes/ZooKeeper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,8 +102,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Elmer\IdeaProjects\zoo-extension" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Elmer\IdeaProjects\zoo-extension\UML Diagrams" />
     </key>
   </component>
   <component name="RunManager">
@@ -252,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600896425607</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added some observer classes">
+      <created>1601001911903</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601001911903</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,13 +323,18 @@
     <MESSAGE value="Add ZooAnnouncer observer class, ZooEmployee updated to reflect new class changes." />
     <MESSAGE value="ZooKeeper observes the ZooClock class for a change of hour. ZooAnnouncer observers the ZooKeeper for actions now" />
     <MESSAGE value="ZooAnnouncer observes ZooKeeper now based on task change" />
-    <option name="LAST_COMMIT_MESSAGE" value="ZooAnnouncer observes ZooKeeper now based on task change" />
+    <MESSAGE value="Added some observer classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some observer classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599696455638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="75" y="211" width="1092" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599696455638" />
+    <state x="234" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601001649440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="234" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601001649440" />
     <state x="285" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1600636535889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,46 +351,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1188" y="231" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1600918409307" />
-    <state width="888" height="288" key="GridCell.Tab.0.bottom" timestamp="1600924341725">
+    <state x="0" y="84" key="DiffContextDialog" timestamp="1601001839727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="888" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600924341725" />
-    <state width="888" height="288" key="GridCell.Tab.0.center" timestamp="1600924341725">
+    <state x="0" y="84" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601001839727" />
+    <state width="914" height="291" key="GridCell.Tab.0.bottom" timestamp="1601247184327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="888" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600924341725" />
-    <state width="888" height="288" key="GridCell.Tab.0.left" timestamp="1600924341724">
+    <state width="914" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601247184327" />
+    <state width="914" height="291" key="GridCell.Tab.0.center" timestamp="1601247184327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="888" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600924341724" />
-    <state width="888" height="288" key="GridCell.Tab.0.right" timestamp="1600924341725">
+    <state width="914" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601247184327" />
+    <state width="914" height="291" key="GridCell.Tab.0.left" timestamp="1601247184326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="888" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600924341725" />
+    <state width="914" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601247184326" />
+    <state width="914" height="291" key="GridCell.Tab.0.right" timestamp="1601247184327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601247184327" />
     <state x="17" y="173" key="Maven.ArtifactSearchDialog" timestamp="1599706465948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="17" y="173" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599706465948" />
-    <state x="0" y="85" key="MergeDialog" timestamp="1600222868035">
+    <state x="0" y="85" key="MergeDialog" timestamp="1601002462456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600222868035" />
-    <state x="125" y="280" key="MultipleFileMergeDialog" timestamp="1600222868044">
+    <state x="0" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601002462456" />
+    <state x="125" y="280" key="MultipleFileMergeDialog" timestamp="1601002464682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="125" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600222868044" />
+    <state x="125" y="280" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601002464682" />
     <state x="239" y="224" key="RollbackChangesDialog" timestamp="1599714458200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="239" y="224" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599714458200" />
-    <state x="923" y="135" key="SettingsEditor" timestamp="1600918690363">
+    <state x="697" y="139" key="SettingsEditor" timestamp="1601253201639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="923" y="135" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600918690363" />
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1600896449579">
+    <state x="697" y="139" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601253201639" />
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2" timestamp="1601002505711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600896449579" />
+    <state x="72" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601002505711" />
     <state x="298" y="300" key="chooseDestDirectoryDialog" timestamp="1599705890629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -378,10 +407,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="505" y="254" width="909" height="634" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1600638852955" />
-    <state x="187" y="123" width="585" height="801" key="find.popup" timestamp="1599668088357">
+    <state x="187" y="123" width="585" height="801" key="find.popup" timestamp="1601253383634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="187" y="123" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599668088357" />
+    <state x="187" y="123" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601253383634" />
     <state x="260" y="235" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600130444546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

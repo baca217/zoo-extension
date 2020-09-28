@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 //EXAMPLE OF ENCAPSULATION
-public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//extension is an example of polymorphism
+public class ZooKeeper extends ZooEmployee{//extension is an example of polymorphism
     //time task pairs
     private AbstractMap<Integer, List<String>> timeToTasks;
     //HW2 keep track of animals
@@ -22,7 +22,7 @@ public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//
         timeToTasks.put(10, Arrays.asList("will now roll call the animals", "roll call"));
         timeToTasks.put(12, Arrays.asList("will now feed the animals", "feed"));
         timeToTasks.put(15, Arrays.asList("will now exercise the animals", "exercise"));
-        timeToTasks.put(17, Arrays.asList("will now tell the animals to sleep", "sleep"));
+        timeToTasks.put(19, Arrays.asList("will now tell the animals to sleep", "sleep"));
         timeToTasks.put(20, Arrays.asList("left work", "none"));
     }
 
@@ -70,8 +70,5 @@ public class ZooKeeper extends ZooEmployee implements PropertyChangeListener {//
         zooAnimals = animals;
     }
     public  List<Animal>  getZooList() {return this.zooAnimals;}
-    @Override
-    public void uniform(){
-        System.out.println("Zookeeper "+this.getName()+" put on their uniform");
-    }
+
 }

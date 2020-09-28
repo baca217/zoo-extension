@@ -40,6 +40,14 @@ public class ZooClock {
             }
             else {
                 System.out.println("ZooClock: we are on hour "+hour);
+                if(hour == 8)
+                {
+                    System.out.println("The zoo is now open!");
+                }
+                if(hour == 20)
+                {
+                    System.out.println("The zoo is now closed!");
+                }
                 support.firePropertyChange("hour", this.hour-1, this.hour);
             }
             this.hour++;

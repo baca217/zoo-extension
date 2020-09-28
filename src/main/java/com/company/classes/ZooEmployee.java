@@ -5,7 +5,7 @@ import java.beans.PropertyChangeSupport;
 import java.util.List;
 
 //EXAMPLE OF ENCAPSULATION
-abstract class ZooEmployee{
+abstract class ZooEmployee  implements PropertyChangeListener{
     //new variable, people who will watch this employee
     protected PropertyChangeSupport support = new PropertyChangeSupport(this);
     //name is an example of identity
@@ -15,8 +15,6 @@ abstract class ZooEmployee{
 
     //function is an example of abstraction
     public ZooEmployee(String newName){this.name = newName;}
-
-    public abstract void uniform();
 
     //function is an example of abstraction
     public String getName(){ return this.name;}

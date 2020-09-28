@@ -16,13 +16,18 @@ public class ZookeeperHomework1Application {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter number of days: ");
 		days = scan.nextInt();
-
+		//initial employees
 		ZooAnnouncer test = new ZooAnnouncer("Kron");
 		ZooKeeper elmer = new ZooKeeper("Dennis");
+		ZooFoodServer zfs = new ZooFoodServer("Sara");
 		ZooClock clock = new ZooClock();
+		//adding people to watch the zooClock
 		clock.addPropertyChangeListener(elmer);
+		clock.addPropertyChangeListener(zfs);
+		clock.addPropertyChangeListener(test);
 		clock.setWorkDays(days);
 		elmer.addPropertyChangeListener(test);
+		zfs.addPropertyChangeListener(test);
 		//Marsupial
 		Kangaroo k1 = new Kangaroo("Ken");
 		Kangaroo k2 = new Kangaroo("Kevin");
