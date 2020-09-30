@@ -1,4 +1,4 @@
-Object-Oriented Project 1 Zoo  
+Object-Oriented Project 2 Zoo  
 By: Elmer Baca Holguin and Timothy Euken
 =======================
 This project is meant to show understanding of object oriented concepts.
