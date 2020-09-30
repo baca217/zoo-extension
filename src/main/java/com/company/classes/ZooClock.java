@@ -28,13 +28,18 @@ public class ZooClock {
     public void doWorkDays()
     {
         hour = 0;
-        while(days > 0)
+        int curDay = 0;
+        while(curDay <= days)
         {
             if(this.hour == 0)
             {
-                support.firePropertyChange("day", this.days, this.days-1);
-                this.days--;
-                System.out.println("ZooClock: we are on day "+days);
+                support.firePropertyChange("day", curDay, curDay+1);
+                curDay++;
+                if(curDay > days)
+                {
+                    break;
+                }
+                System.out.println("\nZooClock: we are on day "+curDay);
                 System.out.println("ZooClock: we are on hour "+hour);
                 support.firePropertyChange("hour", 23, this.hour);
             }
@@ -57,6 +62,6 @@ public class ZooClock {
 
     public void setWorkDays(int numDays)
     {
-        days = numDays + 1;
+        days = numDays;
     }
 }

@@ -1,9 +1,7 @@
 package com.company.classes;
 
-//EXAMPLE OF ENCAPSULATION
-public class Marsupial extends Animal{//extension is an example of polymorphism
-    //all functions are examples of abstraction
-    //name is an example of identity
+public class Marsupial extends Animal{
+    //STRATEGY PATTERN OCCURING HERE
     public Marsupial(String newName)
     {
         super(newName, new munchFood());
