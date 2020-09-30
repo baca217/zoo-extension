@@ -3,9 +3,11 @@ package com.company.classes;
 import java.util.Scanner;
 
 public abstract class Animal {
+    //STRATEGY PATTERN OCCURING HERE
     protected IEatType eatBehavior;
     protected String name;
 
+    //STRATEGY PATTERN OCCURING HERE
     public Animal(String newName, IEatType newEatBehavior)
     {
         this.eatBehavior = newEatBehavior;

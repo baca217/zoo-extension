@@ -17,19 +17,21 @@ public class ZookeeperHomework1Application {
 		System.out.println("Enter number of days: ");
 		days = scan.nextInt();
 		//initial employees
-		ZooAnnouncer test = new ZooAnnouncer("Kron");
-		ZooKeeper elmer = new ZooKeeper("Dennis");
-		ZooFoodServer zfs = new ZooFoodServer("Sara");
+		ZooAnnouncer zanno = new ZooAnnouncer("Kron");
+		ZooKeeper zkeep = new ZooKeeper("Dennis");
+		ZooFoodServer zfood = new ZooFoodServer("Sara");
 		ZooClock clock = new ZooClock();
 		//adding people to watch the zooClock
-		clock.addPropertyChangeListener(elmer);
-		clock.addPropertyChangeListener(zfs);
-		clock.addPropertyChangeListener(test);
+		clock.addPropertyChangeListener(zkeep);
+		clock.addPropertyChangeListener(zfood);
+		clock.addPropertyChangeListener(zanno);
 		clock.setWorkDays(days);
-		elmer.addPropertyChangeListener(test);
-		zfs.addPropertyChangeListener(test);
+		//having ZooAnnouncer watch zookeeper and zooFoodServer
+		zkeep.addPropertyChangeListener(zanno);
+		zfood.addPropertyChangeListener(zanno);
 		//Marsupial
 		Kangaroo k1 = new Kangaroo("Ken");
+		/*commenting out as there is a lot of output with so many animals
 		Kangaroo k2 = new Kangaroo("Kevin");
 		Wombat w1 = new Wombat("Wendy");
 		Wombat w2 = new Wombat("William");
@@ -50,6 +52,7 @@ public class ZookeeperHomework1Application {
 		Dog d2 = new Dog("Dennis");
 		Wolf dw1 = new Wolf("Wayne");
 		Wolf dw2 = new Wolf("Wes");
+		 */
 
 		//List<Animal> zoo = Arrays.asList(k1, k2, w1, w2, e1, e2, h1, h2, r1, r2, c1, c2, t1, t2, d1, d2, dw1, dw2);
 		List<Animal> zoo = Arrays.asList(k1);
@@ -59,7 +62,7 @@ public class ZookeeperHomework1Application {
 		//System.setOut(out);
 
 		//abstraction
-		elmer.setZooList(zoo);
+		zkeep.setZooList(zoo);
 		clock.doWorkDays();
 	}
 }

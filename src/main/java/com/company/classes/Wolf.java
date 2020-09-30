@@ -19,7 +19,7 @@ public class Wolf extends Canine{//extension is an example of polymorphism
 
     @Override
     protected void eat() {
-        System.out.println(this.getName() + " the Wolf "+this.eatBehavior);
+        System.out.println(this.getName() + " the Wolf "+this.eatBehavior.eatFood());
     }
 
     @Override

@@ -12,7 +12,7 @@ public class Kangaroo extends Marsupial{//extension is an example of polymorphis
     @Override
     public void makeNoise() { System.out.println(this.getName() + " the "+this.getType()+" makes a noise"); }
     @Override
-    public void eat() { System.out.println(this.getName() + " the "+this.getType()+" "+this.eatBehavior); }
+    public void eat() { System.out.println(this.getName() + " the "+this.getType()+" "+this.eatBehavior.eatFood()); }
     @Override
     public void roam() {System.out.println(this.getName() + " the "+this.getType()+" decided to roam around");}
     @Override

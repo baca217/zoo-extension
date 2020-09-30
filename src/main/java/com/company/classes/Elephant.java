@@ -12,7 +12,7 @@ public class Elephant extends Pachyderm{//extension is an example of polymorphis
     @Override
     protected void makeNoise() { System.out.println(this.getName() + " the elephant makes a noise"); }
     @Override
-    protected void eat() { System.out.println(this.getName() + " the elephant "+this.eatBehavior); }
+    protected void eat() { System.out.println(this.getName() + " the elephant "+this.eatBehavior.eatFood()); }
     @Override
     protected void sleep() {
         System.out.println(this.getName() + " the elephant went to sleep");
