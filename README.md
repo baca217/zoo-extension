@@ -1,6 +1,7 @@
 Object-Oriented Project 1 Zoo  
 By: Elmer Baca Holguin and Timothy Euken
 =======================
+
 This project is meant to show understanding of object oriented concepts.
 The main point of this project is to show an understanding of the observer pattern, strategy pattern, and UML diagrams. The obersever pattern is shown by the ZooAnnouncer, ZooKeeper, and ZooFoodEmployee classes who all watch the ZooClock class. ZooAnnouncer also watches the ZooKeeper and ZooFoodEmployee classes. UML diagrams can be found under folder UML Diagrams.
 How to use?
