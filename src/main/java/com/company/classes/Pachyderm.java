@@ -6,7 +6,7 @@ import java.util.Random;
 public class Pachyderm  extends Animal { //extension is an example of polymorphism
     //all functions are examples of abstraction
     //name is an example of identity
-    public Pachyderm(String name){super(name);}
+    public Pachyderm(String name){super(name, new swallowFood());}
     @Override
     protected void roam(){
         Random rand = new Random();

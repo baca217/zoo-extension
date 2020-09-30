@@ -12,7 +12,7 @@ public class Rhino extends Pachyderm{//extension is an example of polymorphism
     @Override
     public void makeNoise() { System.out.println(this.getName() + " the rhino makes a noise"); }
     @Override
-    public void eat() { System.out.println(this.getName() + " the rhino ate"); }
+    public void eat() { System.out.println(this.getName() + " the rhino "+this.eatBehavior); }
     @Override
     public void sleep() {
         System.out.println(this.getName() + " the rhino went to sleep");

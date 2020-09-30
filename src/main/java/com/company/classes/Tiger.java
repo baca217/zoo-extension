@@ -19,7 +19,7 @@ public class Tiger extends Feline {//extension is an example of polymorphism
 
     @Override
     protected void eat() {
-        System.out.println(this.getName() + " the Tiger eats something tasty");
+        System.out.println(this.getName() + " the Tiger "+this.eatBehavior);
     }
 
     @Override

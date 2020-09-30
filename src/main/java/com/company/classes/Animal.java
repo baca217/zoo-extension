@@ -2,14 +2,13 @@ package com.company.classes;
 
 import java.util.Scanner;
 
-//EXAMPLE OF ENCAPSULATION
 public abstract class Animal {
-    //EXAMPLE OF IDENTITY
-    //name is an example of identity
+    protected IEatType eatBehavior;
     protected String name;
-    //EXAMPLE OF ABSTRACTION
-    public Animal(String newName)
+
+    public Animal(String newName, IEatType newEatBehavior)
     {
+        this.eatBehavior = newEatBehavior;
         String type = this.getClass().getSimpleName().toLowerCase();
         char firstChar = type.charAt(0);
         Scanner scan = new Scanner(System.in);
@@ -20,6 +19,7 @@ public abstract class Animal {
         }
         this.name = newName;
     }
+
     public void doCommand(String command)
     {
         switch(command)
@@ -42,10 +42,6 @@ public abstract class Animal {
         }
     }
 
-    // STRATEGY BEHAVIOR
-    final public void poopNow(){
-        System.out.println(getTitle() + " just dropped a poop");
-    }
     protected void wakeUp() {
         System.out.println("Default Wake up");
     }

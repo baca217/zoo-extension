@@ -22,7 +22,7 @@ public class Dog extends Canine{//extension is an example of polymorphism
 
     @Override
     public void eat() {
-        System.out.println(this.getName() + " the Wolf eats something tasty");
+        System.out.println(this.getName() + " the Wolf "+this.eatBehavior);
     }
 
     @Override

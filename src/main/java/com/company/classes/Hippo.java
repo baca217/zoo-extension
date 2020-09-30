@@ -12,7 +12,7 @@ public class Hippo extends Pachyderm {//extension is an example of polymorphism
     @Override
     public void makeNoise() { System.out.println(this.getName() + " the hippo makes a noise"); }
     @Override
-    public void eat() { System.out.println(this.getName() + " the hippo ate"); }
+    public void eat() { System.out.println(this.getName() + " the hippo "+this.eatBehavior); }
     @Override
     public void sleep() {
         System.out.println(this.getName() + " the hippo went to sleep");

@@ -21,7 +21,7 @@ public class Cat extends Feline {//extension is an example of polymorphism
     //EXAMPLE OF ABSTRACTION
     @Override
     protected void eat() {
-        System.out.println(this.getName() + " the Cat eats something tasty");
+        System.out.println(this.getName() + " the Cat "+this.eatBehavior);
     }
     //EXAMPLE OF ABSTRACTION
     @Override

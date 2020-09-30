@@ -6,7 +6,7 @@ public class Marsupial extends Animal{//extension is an example of polymorphism
     //name is an example of identity
     public Marsupial(String newName)
     {
-        super(newName);
+        super(newName, new munchFood());
     }
     @Override
     protected void roam(){}
